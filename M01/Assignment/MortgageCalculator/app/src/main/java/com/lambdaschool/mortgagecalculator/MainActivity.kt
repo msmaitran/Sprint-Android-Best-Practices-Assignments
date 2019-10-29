@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         disposable = obsCombined.observeOn(AndroidSchedulers.mainThread()).subscribe{result -> tv_answer.text = result.toString()}
 
-        secondDisposable = Retro.create().getNumbers(2, "uint8")
+        secondDisposable = Retro.create().getNumbers(4, "uint8")
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .onErrorReturn { Numbers(arrayOf(1)) }
