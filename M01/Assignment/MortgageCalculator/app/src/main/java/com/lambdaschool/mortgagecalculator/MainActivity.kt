@@ -63,8 +63,8 @@ class MainActivity : AppCompatActivity() {
             val loanAmount = purchasePrice.toDouble() - downpayment.toDouble()
 
             // A = Pr(1+r)^n/((1+r)^n - 1)
-            val dividend: Double = (1+interestPerMonth).pow(payPeriods)*interestPerMonth*loanAmount
-            val divisor: Double = (1+interestPerMonth).pow(payPeriods)-1
+            val dividend: Double = interestPerMonth * loanAmount * (1+interestPerMonth).pow(payPeriods)
+            val divisor: Double = (1+interestPerMonth).pow(payPeriods) - 1
             dividend/divisor
         }
     }
