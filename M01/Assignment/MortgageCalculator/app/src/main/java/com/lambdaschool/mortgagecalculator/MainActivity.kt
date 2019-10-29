@@ -24,7 +24,12 @@ class MainActivity : AppCompatActivity() {
         val obsInterestRate = et_interest_rate.textChanges()
         val obsLoanLength = et_loan_length.textChanges()
 
-        val obsCombined = Observables.combineLatest(obsPurchasePrice, obsDownPayment, obsInterestRate, obsLoanLength){_,_,_,_ -> calculateMortgagePayment()}
+        val obsCombined = Observables.combineLatest(obsPurchasePrice, obsDownPayment, obsInterestRate, obsLoanLength) {
+                purchasePrice,
+                downpayment,
+                interestRate,
+                loanLength -> calculateMortgagePayment()
+        }
 
         disposable = obsCombined.observeOn(AndroidSchedulers.mainThread()).subscribe{result -> tv_answer.text = result.toString()}
 
