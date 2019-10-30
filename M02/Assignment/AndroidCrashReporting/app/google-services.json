@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "186658488745",
+    "firebase_url": "https://android-crash-reporting.firebaseio.com",
+    "project_id": "android-crash-reporting",
+    "storage_bucket": "android-crash-reporting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186658488745:android:94e47f2da2a117c5b444b8",
+        "android_client_info": {
+          "package_name": "com.lambdaschool.androidcrashreportingmtt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186658488745-a5kfi5uk510s07t92bnlkt67bgoi1lr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lambdaschool.androidcrashreportingmtt",
+            "certificate_hash": "172546a5cfb71eb8d3a744aa69c3b24db4debc17"
+          }
+        },
+        {
+          "client_id": "186658488745-dva2q69tonidfveh8j911163mu4s4si5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDTzKAHRlI4Ku8HTWe6oQ-AQ9a7GOq6Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186658488745-dva2q69tonidfveh8j911163mu4s4si5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

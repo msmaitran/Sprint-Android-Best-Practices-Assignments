@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Crash Reporting</string>
+    <string name="crash_one">Crash One</string>
+    <string name="crash_two">Crash Two</string>
+    <string name="crash_three">Crash Three</string>
+    <string name="crash_four">Crash Four</string>
+</resources>
