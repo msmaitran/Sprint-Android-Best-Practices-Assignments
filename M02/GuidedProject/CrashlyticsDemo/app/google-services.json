@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "104079701796",
+    "firebase_url": "https://lambdacrashtest-16f1f.firebaseio.com",
+    "project_id": "lambdacrashtest-16f1f",
+    "storage_bucket": "lambdacrashtest-16f1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104079701796:android:99de728f4771178e27a5b1",
+        "android_client_info": {
+          "package_name": "com.lambdaschool.crashlyticsdemomtt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104079701796-h9c2f7j4s1u5rr6t34npsmgnjd83mavc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lambdaschool.crashlyticsdemomtt",
+            "certificate_hash": "172546a5cfb71eb8d3a744aa69c3b24db4debc17"
+          }
+        },
+        {
+          "client_id": "104079701796-iufbefoveavof7kf5i2ti47ngknuji27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYpPFVcdvU7Yaene_n9N1ksLOwOy2ByGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104079701796-iufbefoveavof7kf5i2ti47ngknuji27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
