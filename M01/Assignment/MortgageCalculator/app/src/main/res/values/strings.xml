@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mortgage Calculator</string>
+    <string name="answer">Answer</string>
+    <string name="purchase_price">Purchase Price: $ </string>
+    <string name="downpayment">Downpayment : $ </string>
+    <string name="interest_rate">Interest Rate   : </string>
+    <string name="loan_length">Loan Length : </string>
+    <string name="monthly_payment">Monthly Payment</string>
+    <string name="of_months"># of Months</string>
+</resources>
